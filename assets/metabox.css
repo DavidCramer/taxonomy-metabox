@@ -1,0 +1,132 @@
+.postbox-container .control-label {
+  display: block;
+  margin: 8px 0 12px;
+  font-weight: bold;
+}
+.postbox-container .help-block {
+  font-size: 13px;
+  font-style: italic;	
+  color: #A5A5A5;
+  margin: 2px 0 5px;
+}
+
+.taxonomy-metabox-tab {
+  background: none repeat scroll 0 0 #f4f4f4;
+  list-style: none outside none;
+  margin: -1px -12px -12px;
+  padding: 0;
+}
+.taxonomy-metabox-tab > li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.taxonomy-metabox-tab > li > a {
+  display: block;
+  padding: 8px 12px;
+}
+.taxonomy-metabox-tab > li:hover {
+	background: #efefef;
+}
+.taxonomy-metabox-tab > li.active {
+	background: #fff;
+}
+.taxonomy-metabox-wrapper .caldera_forms_form {
+  padding: 0;
+}
+
+/* ----- side --------- */
+#side-sortables .taxonomy-metabox-tab {
+  background: none repeat scroll 0 0 #f4f4f4;
+  float: none;
+  list-style: none outside none;
+  margin: -14px -12px 6px;
+  padding: 0;
+  width: auto;
+}
+#side-sortables .taxonomy-metabox-wrapper .caldera_forms_form {
+  margin: 0;
+  padding: 8px 0;
+}
+#side-sortables .inside > div.taxonomy-metabox-wrapper {
+  box-shadow: none;
+}
+
+.taxonomy-metabox-tab {
+  background-color: transparent;
+  border-right: 1px solid #eee;
+}
+.taxonomy-metabox-tab > li > a {
+  display: block;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+.taxonomy-metabox-tab > li.active {
+  background: #eee;
+}
+.taxonomy-metabox-tab > li.active > a {
+  color: #333;
+}
+.taxonomy-metabox-tab > li {
+  border-top: 1px solid #eee;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+span.taxonomy-metabox-wrapper {
+  display: block;
+  margin: 0 0 0 -170px;
+  position: absolute;
+  width: 140px;
+}
+.inside > .taxonomy-metabox-wrapper.has-tabs {
+  border-left: 1px solid #eee;
+  margin-left: 151px;
+  padding-left: 18px;
+  margin-bottom: -12px;
+}
+
+
+.taxonomy-metabox-tab-body{
+  display: none;
+}
+
+/* wp- overideing */
+.taxonomy-metabox-wrapper .postbox {
+  border: 0 none;
+  margin: -6px -12px 0px -18px;
+  display: block !important;
+  box-shadow: none;
+}
+
+.taxonomy-metabox-wrapper .postbox .handlediv{
+  display: none;
+}
+.taxonomy-metabox-wrapper .inside {
+  display: block !important;
+}
+.taxonomy-metabox-wrapper .postbox .hndle {
+  border-bottom: 1px solid #eee !important;
+  cursor: default;
+}
+
+/* support metabox manager */
+.metamodal-modal-body .taxonomy-metabox-tab {
+  margin: 5px -12px -12px;
+  border-bottom: 1px solid #eee !important;
+}
+/* no sidebar */
+#side-sortables .taxonomy-metabox-wrapper.has-tabs {
+  margin: 0;
+  padding: 0;
+}
+#side-sortables .taxonomy-metabox-tab{
+  display: none;
+}
+#side-sortables .taxonomy-metabox-tab-body{
+  display: block;
+}
+#side-sortables .taxonomy-metabox-tab-body .postbox {
+  margin: -6px -12px;
+}
