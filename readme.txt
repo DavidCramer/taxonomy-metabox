@@ -17,7 +17,7 @@ Working with custom post types, you'll sometimes end up having many taxonomies i
 
 Upload the taxonomy-metabox folder to /wp-content/plugins/
 Activate the plugin through the 'Plugins' menu in WordPress
-Navigate to 'Taxonomy Metabox' in wp-admin.
+There will be a new metabox in the post editor containing all the taxonomies, organised.
 
 == Frequently Asked Questions ==
 none yet.
